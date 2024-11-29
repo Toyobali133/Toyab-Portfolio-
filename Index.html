@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header Section -->
+        <header>
+            <img src="Photo.jpg" alt="Profile Photo">
+            <h1>Md. Toyab Darzi</h1>
+            <p>Finance Analyst</p>
+            <p>Email: toyobali.fnb.bu@gmail.com | Phone: +8801759628495</p>
+            <p>Address: Dept of Finance & Banking, University of Barishal</p>
+        </header>
+
+         <!-- Nav Bar -->
+         <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Short Bio -->
+        <section>
+            <h2>About Me</h2>
+            <p>Highly interested in research stuffs</p>
+        </section>
+
+        <!-- Skills -->
+        <section id ="skill" class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Communication</li>
+                <li>Multi-tasking</li>
+                <li>Ms Office</li>
+                <li>HTML5 & CSS3</li>
+                <li>Bootsrap</li>
+            </ul>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Passing Year</th>
+                    <th>CGPA/GPA</th>
+                </tr>
+                <tr>
+                    <td>BBA</td>
+                    <td>University of Barishal</td>
+                    <td>2021</td>
+                    <td>3.47</td>
+                </tr>
+                <tr></tr>
+                    <td>Higher Secondary Certificate</td>
+                    <td>Dhaka Board</td>
+                    <td>2016</td>
+                    <td>4.50</td>
+                </tr>
+            </table>
+        </section>
+
+
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p> &copy; 2024 Toyab - All Rights Reserved</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
